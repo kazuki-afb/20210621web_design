@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: mistyrose;
+  display: flex;
+}
+.left{
+  width: 15%;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+.center{
+  width: 65%;
+}
+
+.rigth{
+  width: 20%;
+}
+.ani{
+
+  margin-left: 20px;
+}
+
+.reg{
+  margin: 0;
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  line-height: 70px;
+  margin: 10px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+.container_box{
+  width: 300px;
+  margin: 10px;
+  padding: 0 10px;
+  background-color: snow;
+}
+
+.name{
+  font-size: 12px;
+  color: dimgray;
+}
+
+
